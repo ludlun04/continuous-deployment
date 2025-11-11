@@ -1,4 +1,5 @@
 import { getSecondsLeftOfYear, getTimeString } from "./clock";
+import { test, expect } from "vitest";
 
 test('getTimeString formats time string correctly', () => {
   const now = new Date(0, 0, 0, 10, 20, 30);
